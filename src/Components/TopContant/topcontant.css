@@ -1,0 +1,66 @@
+.topcontant {
+    color: white;
+    position: relative;
+
+}
+
+.topcontant__contrainer {
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+
+.topcontant__contrainer>p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+
+.topcontant__contrainer>a>button {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.topcontant__contrainer>h1 {
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.topcontant__downloadButton {
+    color: white;
+    background-color: #f64c08;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.topcontant__downloadButton:hover {
+    color: #f64c08;
+    background-color: white;
+    font-weight: 600;
+}
+
+.topcontant__workButton {
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 9px 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topcontant__workButton:hover {
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
